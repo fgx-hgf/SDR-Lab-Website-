@@ -1,25 +1,23 @@
 [
   {
-  "title": "What is SDR? (5 min)",
-  "description": "Here we take a look at the ADALM-PLUTO Full Duplex Software Defined Radio.",
-  "videoId": "nlXiD-A2fA8",
-  "length": "13:14",
-  "tags": ["Lab Walkthrough", "Signal Processing"]
-},
+    "title": "What is SDR? (5 min)",
+    "description": "Here we take a look at the ADALM-PLUTO Full Duplex Software Defined Radio.",
+    "videoId": "nlXiD-A2fA8",
+    "length": "13:14",
+    "tags": ["Lab Walkthrough", "Signal Processing"]
+  },
   {
     "title": "GNU Radio Basics",
     "description": "Create a simple FM receiver; understand sources, sinks, and blocks.",
-    "embed": "https://www.youtube.com/watch?v=XDkOhlztMLs",
+    "videoId": "XDkOhlztMLs",
     "length": "9:38",
     "tags": ["GNU Radio", "USRP"]
   },
   {
     "title": "Introduction to Digital Modulation",
-    "description": "Explains digital modulation and compares different formats. Examples are shown for ASK, FSK, BPSK, DPSK, QPSK and QAM. ",
-    "embed": "https://www.youtube.com/watch?v=8e4Sf6rL3zk",
+    "description": "Explains digital modulation and compares different formats. Examples are shown for ASK, FSK, BPSK, DPSK, QPSK and QAM.",
+    "videoId": "8e4Sf6rL3zk",
     "length": "10:53",
     "tags": ["Signal Processing", "Lab Walkthrough"]
   }
 ]
-
-
