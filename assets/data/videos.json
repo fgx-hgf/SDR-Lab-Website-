@@ -1,23 +1,24 @@
 [
   {
     "title": "What is SDR? (5 min)",
-    "description": "A fast primer on SDR stacks and why labs use SDR hardware.",
-    "embed": "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
-    "length": "5:00",
+    "description": "Here we take a look at the ADALM-PLUTO Full Duplex Software Defined Radio.",
+    "embed": "https://www.youtube.com/watch?v=nlXiD-A2fA8",
+    "length": "13:14",
     "tags": ["Lab Walkthrough", "Signal Processing"]
   },
   {
     "title": "GNU Radio Basics",
     "description": "Create a simple FM receiver; understand sources, sinks, and blocks.",
-    "embed": "https://www.youtube-nocookie.com/embed/VIDEOID2",
-    "length": "8:41",
+    "embed": "https://www.youtube.com/watch?v=XDkOhlztMLs",
+    "length": "9:38",
     "tags": ["GNU Radio", "USRP"]
   },
   {
-    "title": "SISO OFDM: From Flowgraph to Air",
-    "description": "Build an OFDM transmitter/receiver and test it over the air.",
-    "embed": "https://www.youtube-nocookie.com/embed/VIDEOID3",
-    "length": "11:32",
-    "tags": ["GNU Radio", "Signal Processing", "Lab Walkthrough"]
+    "title": "Introduction to Digital Modulation",
+    "description": "Explains digital modulation and compares different formats. Examples are shown for ASK, FSK, BPSK, DPSK, QPSK and QAM. ",
+    "embed": "https://www.youtube.com/watch?v=8e4Sf6rL3zk",
+    "length": "10:53",
+    "tags": ["Signal Processing", "Lab Walkthrough"]
   }
 ]
+
