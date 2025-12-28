@@ -92,18 +92,26 @@ async function renderVideos(){
   }
 
   function card(v){
-    // v.embed is a privacy-enhanced YouTube URL, e.g., https://www.youtube-nocookie.com/embed/VIDEOID
-    return `
-      <article class="video-card">
-        <iframe src="${v.embed}" title="${v.title}" allowfullscreen loading="lazy"></iframe>
-        <div class="body">
-          <h3>${v.title}</h3>
-          <p class="meta">${v.length} · ${v.tags.join(' • ')}</p>
-          <p>${v.description}</p>
-        </div>
-      </article>
-    `;
-  }
+  const thumb = `https://img.youtube.com/vi/${v.videoId}/hqdefault.jpg`;
+  const watch = `https://www.youtube.com/watch?v=${v.videoId}`;
+
+  return `
+    <article class="video-card">
+      <a href="${watch}" target="_blank" rel="noreferrer" class="thumb">
+        <img
+          src="${thumb}"
+          alt="${v.title}"
+          loading="lazy"
+        />
+      </a>
+      <div class="body">
+        <h3>${v.title}</h3>
+        <p class="meta">${v.length} · ${v.tags.join(' • ')}</p>
+        <p>${v.description}</p>
+      </div>
+    </article>
+  `;
+}
 
   function draw(){
     const items = data.filter(matches);
@@ -136,3 +144,4 @@ async function renderConcepts(){
 renderExperiments();
 renderVideos();
 renderConcepts();
+
