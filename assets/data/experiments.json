@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Channel Sounding (Uplink Pilots)",
+    "summary": "Configure clients to send pilots and capture base-station antenna responses. Analyze HDF5 datasets and visualize channel stats.",
+    "difficulty": "Intermediate",
+    "time": 60,
+    "tags": ["Channel Sounding", "Python", "HDF5"],
+    "docs": "",
+    "code": ""
+  },
+  {
+    "title": "Beamsweeping Beacon",
+    "summary": "Transmit a Hadamard-coded beacon to sweep beams; capture with a nearby receiver and plot received power vs. beam index.",
+    "difficulty": "Intermediate",
+    "time": 45,
+    "tags": ["Beamforming", "TX/RX", "OFDM"],
+    "docs": "",
+    "code": ""
+  },
+  {
+    "title": "SISO BER vs SNR (OTA & Simulation)",
+    "summary": "Single-shot OFDM frames; compare BER across SNR in Rayleigh (sim) vs over-the-air with lab hardware.",
+    "difficulty": "Beginner",
+    "time": 40,
+    "tags": ["OFDM", "SISO", "Simulation"],
+    "docs": "",
+    "code": ""
+  },
+  {
+    "title": "Uplink mMIMO: Single User",
+    "summary": "Single UE to N base-station radios; schedule pilots, compute equalization, and plot performance.",
+    "difficulty": "Advanced",
+    "time": 90,
+    "tags": ["mMIMO", "Uplink", "OFDM"],
+    "docs": "",
+    "code": ""
+  },
+  {
+    "title": "Uplink mMIMO: Multi-User",
+    "summary": "Concurrent UEs transmit; capture non-overlapping training; demultiplex streams and compare throughput.",
+    "difficulty": "Advanced",
+    "time": 120,
+    "tags": ["mMIMO", "Multi-User", "OFDM"],
+    "docs": "",
+    "code": ""
+  },
+  {
+    "title": "Open-Access Full-Duplex Demo",
+    "summary": "Intro to FD radios and RF self-interference cancellation; run a baseline PHY-layer test.",
+    "difficulty": "Advanced",
+    "time": 75,
+    "tags": ["Full Duplex", "PHY", "Cancellation"],
+    "docs": "",
+    "code": ""
+  }
+]

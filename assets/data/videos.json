@@ -1,0 +1,23 @@
+[
+  {
+    "title": "What is SDR? (5 min)",
+    "description": "A fast primer on SDR stacks and why labs use SDR hardware.",
+    "embed": "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
+    "length": "5:00",
+    "tags": ["Lab Walkthrough", "Signal Processing"]
+  },
+  {
+    "title": "GNU Radio Basics",
+    "description": "Create a simple FM receiver; understand sources, sinks, and blocks.",
+    "embed": "https://www.youtube-nocookie.com/embed/VIDEOID2",
+    "length": "8:41",
+    "tags": ["GNU Radio", "USRP"]
+  },
+  {
+    "title": "SISO OFDM: From Flowgraph to Air",
+    "description": "Build an OFDM transmitter/receiver and test it over the air.",
+    "embed": "https://www.youtube-nocookie.com/embed/VIDEOID3",
+    "length": "11:32",
+    "tags": ["GNU Radio", "Signal Processing", "Lab Walkthrough"]
+  }
+]

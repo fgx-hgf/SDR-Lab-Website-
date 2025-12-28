@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SDR Lab @ Your University</title>
+  <meta name="description" content="Student-friendly SDR Lab portal: experiments, videos, and core concepts." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="assets/img/favicon.svg" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">SDR Lab</a>
+      <nav aria-label="Main">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+        <ul id="nav" class="nav">
+          <li><a href="experiments.html">Experiments</a></li>
+          <li><a href="videos.html">Videos</a></li>
+          <li><a href="concepts.html">Concepts</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero container">
+      <h1>Software-Defined Radio (SDR) Lab</h1>
+      <p>Explore hands-on experiments, watch quick videos, and review the essential theory you’ll need for the lab.</p>
+      <div class="cta-row">
+        <a class="btn" href="experiments.html">Start with Experiments</a>
+        <a class="btn btn-outline" href="videos.html">Watch Videos</a>
+      </div>
+    </section>
+
+    <section class="container grid-3">
+      <article class="card">
+        <h2>What is SDR?</h2>
+        <p>SDR moves radio functions from hardware to software. That makes wireless systems flexible and programmable.</p>
+        <a class="card-link" href="concepts.html">Review concepts →</a>
+      </article>
+      <article class="card">
+        <h2>Lab Safety & Prep</h2>
+        <p>Bring headphones, check your driver versions, and follow RF safety guidelines for transmit power and antennas.</p>
+        <a class="card-link" href="concepts.html#lab-prep">Read the checklist →</a>
+      </article>
+      <article class="card">
+        <h2>Hardware & Tools</h2>
+        <p>USRP/RTL-SDR, GNU Radio, MATLAB, Python. See drivers, images, and starter flowgraphs.</p>
+        <a class="card-link" href="concepts.html#tooling">See tools →</a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> SDR Lab · Your University</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>

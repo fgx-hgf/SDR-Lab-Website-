@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Sampling, IQ Data, and Complex Baseband",
+    "summary": "Why we represent RF signals as complex samples; sampling rate vs. bandwidth; aliasing; IQ imbalance.",
+    "tags": ["DSP", "IQ"]
+  },
+  {
+    "title": "Modulation & Demodulation",
+    "summary": "PSK, QAM, FSK. Eye diagrams, constellation plots, EVM, and symbol timing.",
+    "tags": ["DSP", "Modulation"]
+  },
+  {
+    "title": "OFDM Essentials",
+    "summary": "IFFT/FFT, subcarriers, cyclic prefix, pilot tones, PAPR, and channel estimation.",
+    "tags": ["OFDM", "PHY"],
+    "links": [
+      { "label": "Nice OFDM walkthrough", "url": "https://example.org/ofdm" }
+    ]
+  },
+  {
+    "title": "Channel Models & Estimation",
+    "summary": "AWGN, Rayleigh/Rician; path loss and fading; LS/MMSE channel estimation.",
+    "tags": ["Channel", "Estimation"]
+  },
+  {
+    "title": "Beamforming & mMIMO",
+    "summary": "Array response, precoding/combining, reciprocity calibration, and CSI acquisition.",
+    "tags": ["Beamforming", "mMIMO"]
+  },
+  {
+    "title": "Full-Duplex Wireless",
+    "summary": "Self-interference cancellation (analog/RF and digital), linear/nonlinear effects, and performance trade-offs.",
+    "tags": ["Full Duplex", "PHY"]
+  }
+]

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Concepts · SDR Lab</title>
+  <meta name="description" content="Core concepts for SDR: modulation, OFDM, channel models, beamforming, mMIMO, and more." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">SDR Lab</a>
+      <nav aria-label="Main">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+        <ul id="nav" class="nav">
+          <li><a href="experiments.html">Experiments</a></li>
+          <li><a href="videos.html">Videos</a></li>
+          <li><a class="active" href="concepts.html" aria-current="page">Concepts</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <header class="page-header">
+      <h1>Core Concepts</h1>
+      <p>Short, linked notes you’ll reference during labs. Click for details and resources.</p>
+    </header>
+
+    <section id="concept-list" class="card-accordion" aria-live="polite"></section>
+
+    <section class="callout" id="lab-prep">
+      <h2>Lab Prep Checklist</h2>
+      <ul>
+        <li>Install drivers and verify device detection (e.g., <code>uhd_find_devices</code>).</li>
+        <li>Use appropriate antennas &amp; attenuators; keep TX power within lab guidelines.</li>
+        <li>Bring wired headphones; monitor audio to avoid feedback.</li>
+        <li>Keep RF hygiene: terminate unused ports; label cables.</li>
+      </ul>
+    </section>
+
+    <section class="callout" id="tooling">
+      <h2>Tools</h2>
+      <ul>
+        <li>GNU Radio / SDRangel / MATLAB / Python (NumPy/Scipy)</li>
+        <li>Hardware: RTL-SDR, USRP, LimeSDR (per your lab inventory)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><p>© <span id="year"></span> SDR Lab · Your University</p></div>
+  </footer>
+
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>
