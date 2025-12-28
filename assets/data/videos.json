@@ -1,11 +1,11 @@
 [
   {
-    "title": "What is SDR? (5 min)",
-    "description": "Here we take a look at the ADALM-PLUTO Full Duplex Software Defined Radio.",
-    "embed": "https://www.youtube.com/watch?v=nlXiD-A2fA8",
-    "length": "13:14",
-    "tags": ["Lab Walkthrough", "Signal Processing"]
-  },
+  "title": "What is SDR? (5 min)",
+  "description": "Here we take a look at the ADALM-PLUTO Full Duplex Software Defined Radio.",
+  "videoId": "nlXiD-A2fA8",
+  "length": "13:14",
+  "tags": ["Lab Walkthrough", "Signal Processing"]
+},
   {
     "title": "GNU Radio Basics",
     "description": "Create a simple FM receiver; understand sources, sinks, and blocks.",
@@ -21,4 +21,5 @@
     "tags": ["Signal Processing", "Lab Walkthrough"]
   }
 ]
+
 
